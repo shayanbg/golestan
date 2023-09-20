@@ -1,0 +1,1049 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  width: 100%;
+  height: 105px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #262626; }
+  header > div.menu {
+    width: 56%;
+    height: 42px;
+    margin-top: 3%;
+    margin-right: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aqua; }
+    header > div.menu > nav {
+      width: 100%;
+      height: inherit;
+      background-color: blueviolet; }
+      header > div.menu > nav > ul {
+        width: 90%;
+        height: inherit;
+        background-color: aliceblue;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        list-style: none;
+        justify-content: center; }
+        header > div.menu > nav > ul > li {
+          width: auto;
+          height: inherit; }
+          header > div.menu > nav > ul > li > a {
+            display: block;
+            width: auto;
+            padding: 0 14px;
+            line-height: 42px;
+            text-decoration: none;
+            font-size: large;
+            transition: 500ms;
+            color: grey; }
+            header > div.menu > nav > ul > li > a:hover {
+              color: whitesmoke;
+              transition: 100ms; }
+          header > div.menu > nav > ul > li div.dropdown-menu {
+            width: 10%;
+            height: 0;
+            position: absolute;
+            transition: 500ms;
+            display: flex;
+            flex-flow: column wrap;
+            background-color: aqua; }
+          header > div.menu > nav > ul > li:hover > div.dropdown-menu {
+            height: 70px;
+            transition: 500ms; }
+
+main {
+  width: 100%;
+  background-color: whitesmoke;
+  height: max-content; }
+  main > div.golestan-tea-box {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #dedede; }
+    main > div.golestan-tea-box > div.writing {
+      width: 27.5%;
+      height: 275px;
+      margin-top: 7%;
+      margin-right: 17%; }
+      main > div.golestan-tea-box > div.writing > div.title {
+        width: max-content;
+        height: max-content;
+        font-size: 40px;
+        margin-bottom: 3%;
+        color: red; }
+      main > div.golestan-tea-box > div.writing > div.additional {
+        width: max-content;
+        height: max-content;
+        margin-right: 5%;
+        margin-bottom: 7%;
+        color: #bb8a5b;
+        font-size: 20px; }
+      main > div.golestan-tea-box > div.writing > div.about-draw {
+        width: 100%;
+        height: 73px;
+        color: #818181;
+        font-size: large; }
+      main > div.golestan-tea-box > div.writing > div.more-info {
+        width: 35%;
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+        margin-right: 1%;
+        background-color: whitesmoke;
+        border-radius: 10%;
+        transition: 200ms; }
+        main > div.golestan-tea-box > div.writing > div.more-info > a {
+          text-decoration: none;
+          color: grey; }
+          main > div.golestan-tea-box > div.writing > div.more-info > a:hover {
+            color: whitesmoke; }
+        main > div.golestan-tea-box > div.writing > div.more-info:hover {
+          background-color: crimson;
+          transition: 200ms; }
+    main > div.golestan-tea-box > div.tea-pic {
+      margin-top: 1%;
+      margin-right: 200px; }
+  main > div.about-golestan {
+    width: 100%;
+    height: 1180px;
+    margin-top: 1%;
+    border-top: 1px solid rgba(0, 0, 0, 0.496);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.496);
+    display: flex;
+    flex-flow: column wrap; }
+    main > div.about-golestan > div.introduction-title {
+      width: max-content;
+      height: max-content;
+      font-size: x-large;
+      margin-top: 80px;
+      margin-right: 300px;
+      color: red; }
+    main > div.about-golestan > div.golestan-info {
+      width: 52%;
+      height: 162px;
+      margin-top: 3%;
+      margin-right: 22%; }
+      main > div.about-golestan > div.golestan-info > p {
+        line-height: 30px;
+        font-size: larger;
+        color: grey; }
+    main > div.about-golestan > div.second-golestan-info {
+      width: 52%;
+      height: 83px;
+      margin-top: 2%;
+      margin-right: 22%; }
+      main > div.about-golestan > div.second-golestan-info > p {
+        line-height: 30px;
+        font-size: larger;
+        color: grey; }
+    main > div.about-golestan > div.products-title {
+      width: max-content;
+      height: max-content;
+      margin-top: 6%;
+      margin-right: 22%;
+      font-size: x-large;
+      color: red; }
+    main > div.about-golestan > div.additional {
+      width: 52%;
+      height: 87px;
+      margin-top: 3%;
+      margin-right: 22%; }
+      main > div.about-golestan > div.additional > p {
+        font-size: larger;
+        color: grey;
+        line-height: 30px; }
+    main > div.about-golestan > div.numerical-information {
+      width: 75%;
+      height: 240px;
+      margin-top: 9%;
+      padding-right: 20%;
+      display: flex;
+      flex-flow: row wrap; }
+      main > div.about-golestan > div.numerical-information > div.right {
+        width: max-content;
+        height: 240px;
+        margin-left: 2%; }
+        main > div.about-golestan > div.numerical-information > div.right > div.top {
+          width: 100%;
+          height: 185px; }
+        main > div.about-golestan > div.numerical-information > div.right > div.bot {
+          width: 100%;
+          height: 55px;
+          display: flex;
+          font-size: large;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.531); }
+          main > div.about-golestan > div.numerical-information > div.right > div.bot > p {
+            width: max-content;
+            height: max-content;
+            margin-top: 11%;
+            margin-right: 28%;
+            color: grey; }
+      main > div.about-golestan > div.numerical-information > div.mid-r {
+        width: max-content;
+        height: 240px;
+        margin-left: 2%; }
+        main > div.about-golestan > div.numerical-information > div.mid-r > div.top {
+          width: 100%;
+          height: 185px; }
+        main > div.about-golestan > div.numerical-information > div.mid-r > div.bot {
+          width: 100%;
+          height: 55px;
+          display: flex;
+          font-size: large;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.531); }
+          main > div.about-golestan > div.numerical-information > div.mid-r > div.bot > p {
+            width: max-content;
+            height: max-content;
+            margin-top: 11%;
+            margin-right: 28%;
+            color: grey; }
+      main > div.about-golestan > div.numerical-information > div.mid-l {
+        width: max-content;
+        height: 240px;
+        margin-left: 2%; }
+        main > div.about-golestan > div.numerical-information > div.mid-l > div.top {
+          width: 100%;
+          height: 185px; }
+        main > div.about-golestan > div.numerical-information > div.mid-l > div.bot {
+          width: 100%;
+          height: 55px;
+          display: flex;
+          font-size: large;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.531); }
+          main > div.about-golestan > div.numerical-information > div.mid-l > div.bot > p {
+            width: max-content;
+            height: max-content;
+            margin-top: 11%;
+            margin-right: 21%;
+            color: grey; }
+      main > div.about-golestan > div.numerical-information > div.left {
+        width: max-content;
+        height: 240px; }
+        main > div.about-golestan > div.numerical-information > div.left > div.top {
+          width: 100%;
+          height: 185px; }
+        main > div.about-golestan > div.numerical-information > div.left > div.bot {
+          width: 100%;
+          height: 55px;
+          display: flex;
+          font-size: large;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.531); }
+          main > div.about-golestan > div.numerical-information > div.left > div.bot > p {
+            width: max-content;
+            height: max-content;
+            margin-top: 11%;
+            margin-right: 21%;
+            color: grey; }
+  main > div.golestan-rice-box {
+    width: 100%;
+    height: 560px;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #e9d69f; }
+    main > div.golestan-rice-box > div.img {
+      width: 100%;
+      height: 530px; }
+      main > div.golestan-rice-box > div.img > img {
+        width: 100%;
+        height: 530px; }
+    main > div.golestan-rice-box > div.title {
+      width: 25%;
+      height: 100px;
+      position: absolute;
+      margin-top: 34.3%;
+      margin-right: 22%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: red; }
+      main > div.golestan-rice-box > div.title > div.top {
+        width: max-content;
+        height: max-content;
+        font-size: 37px;
+        margin-top: 4%;
+        margin-right: 10%;
+        color: whitesmoke; }
+      main > div.golestan-rice-box > div.title > div.bot {
+        width: max-content;
+        height: max-content;
+        font-size: x-large;
+        margin-top: 2%;
+        margin-right: 10%;
+        color: whitesmoke; }
+  main > div.iranian-food-box {
+    width: 100%;
+    height: 935px;
+    margin-top: 1%;
+    display: flex;
+    flex-flow: column wrap;
+    border-top: 1px solid #818181;
+    border-bottom: 1px solid #818181; }
+    main > div.iranian-food-box > div.title {
+      width: max-content;
+      height: max-content;
+      margin-top: 2%;
+      margin-right: 22%;
+      font-size: x-large;
+      color: red; }
+    main > div.iranian-food-box > div.about-iranian-food {
+      width: 60%;
+      height: 121px;
+      margin-top: 1%;
+      margin-right: 22%; }
+      main > div.iranian-food-box > div.about-iranian-food > p {
+        font-size: larger;
+        color: grey;
+        line-height: 30px; }
+    main > div.iranian-food-box > div.buttons {
+      width: 75%;
+      height: max-content;
+      margin-top: 1%;
+      margin-right: 22%;
+      display: flex;
+      flex-flow: row wrap; }
+      main > div.iranian-food-box > div.buttons > div.right-button {
+        width: 15%;
+        height: 45px;
+        display: flex;
+        border: 1px solid #818181;
+        border-radius: 10px; }
+        main > div.iranian-food-box > div.buttons > div.right-button > a {
+          margin: 9% auto;
+          font-size: large;
+          color: grey;
+          text-decoration: none; }
+          main > div.iranian-food-box > div.buttons > div.right-button > a:hover {
+            color: whitesmoke; }
+        main > div.iranian-food-box > div.buttons > div.right-button:hover {
+          background-color: crimson;
+          transition: 200ms; }
+      main > div.iranian-food-box > div.buttons > div.left-button {
+        width: 15%;
+        height: 45px;
+        display: flex;
+        border: 1px solid #818181;
+        border-radius: 10px;
+        margin-right: 1%; }
+        main > div.iranian-food-box > div.buttons > div.left-button > a {
+          margin: 9% auto;
+          font-size: large;
+          color: grey;
+          text-decoration: none; }
+          main > div.iranian-food-box > div.buttons > div.left-button > a:hover {
+            color: whitesmoke; }
+        main > div.iranian-food-box > div.buttons > div.left-button:hover {
+          background-color: crimson;
+          transition: 200ms; }
+    main > div.iranian-food-box > div.golestan-img-box {
+      width: 100%;
+      height: 560px;
+      margin-top: 8%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #e9d69f; }
+      main > div.iranian-food-box > div.golestan-img-box > div.img {
+        width: 100%;
+        height: 530px; }
+        main > div.iranian-food-box > div.golestan-img-box > div.img > img {
+          width: 100%;
+          height: 530px; }
+      main > div.iranian-food-box > div.golestan-img-box > div.title {
+        width: 25%;
+        height: 100px;
+        position: absolute;
+        margin-top: 34.3%;
+        margin-right: 22%;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: red; }
+        main > div.iranian-food-box > div.golestan-img-box > div.title > div.top {
+          width: max-content;
+          height: max-content;
+          font-size: 37px;
+          margin-top: 4%;
+          margin-right: 10%;
+          color: whitesmoke; }
+        main > div.iranian-food-box > div.golestan-img-box > div.title > div.bot {
+          width: max-content;
+          height: max-content;
+          font-size: x-large;
+          margin-top: 2%;
+          margin-right: 10%;
+          color: whitesmoke; }
+  main > div.golestan-history-box {
+    width: 100%;
+    height: 935px;
+    display: flex;
+    flex-flow: column wrap;
+    border-bottom: 1px solid #818181; }
+    main > div.golestan-history-box > div.title {
+      width: max-content;
+      height: max-content;
+      margin-top: 3%;
+      margin-right: 22%;
+      font-size: x-large;
+      color: red; }
+    main > div.golestan-history-box > div.about-history {
+      width: 50%;
+      height: max-content;
+      margin-top: 1%;
+      margin-right: 22%; }
+      main > div.golestan-history-box > div.about-history > p {
+        font-size: larger;
+        color: grey;
+        line-height: 30px; }
+    main > div.golestan-history-box > div.additional-history {
+      width: 50%;
+      height: max-content;
+      margin-top: 2%;
+      margin-right: 22%; }
+      main > div.golestan-history-box > div.additional-history > p {
+        font-size: larger;
+        color: grey;
+        line-height: 30px; }
+    main > div.golestan-history-box > div.button {
+      width: 15%;
+      height: 45px;
+      display: flex;
+      margin-top: 30px;
+      margin-right: 300px;
+      border: 1px solid black;
+      border-radius: 10px; }
+      main > div.golestan-history-box > div.button > a {
+        margin: 7% auto;
+        font-size: large;
+        color: grey;
+        text-decoration: none; }
+        main > div.golestan-history-box > div.button > a:hover {
+          color: whitesmoke; }
+      main > div.golestan-history-box > div.button:hover {
+        background-color: crimson;
+        transition: 200ms; }
+    main > div.golestan-history-box > div.pistachio-img-box {
+      width: 100%;
+      height: 480px;
+      margin-top: 5%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #e9d69f; }
+      main > div.golestan-history-box > div.pistachio-img-box > div.img {
+        width: 100%;
+        height: 460px;
+        background-color: blueviolet; }
+        main > div.golestan-history-box > div.pistachio-img-box > div.img > img {
+          width: 100%;
+          height: 460px;
+          object-fit: cover; }
+      main > div.golestan-history-box > div.pistachio-img-box > div.title {
+        width: 25%;
+        height: 100px;
+        position: absolute;
+        margin-top: 28.3%;
+        margin-right: 22%;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: red; }
+        main > div.golestan-history-box > div.pistachio-img-box > div.title > div.top {
+          width: max-content;
+          height: max-content;
+          font-size: 37px;
+          margin-top: 4%;
+          margin-right: 10%;
+          color: whitesmoke; }
+        main > div.golestan-history-box > div.pistachio-img-box > div.title > div.bot {
+          width: max-content;
+          height: max-content;
+          font-size: x-large;
+          margin-top: 2%;
+          margin-right: 10%;
+          color: whitesmoke; }
+  main > div.nuts-box {
+    width: 100%;
+    height: 411px;
+    display: flex;
+    flex-flow: column wrap; }
+    main > div.nuts-box > div.title {
+      width: max-content;
+      height: max-content;
+      color: red;
+      margin-top: 50px;
+      font-size: x-large;
+      margin-right: 300px; }
+    main > div.nuts-box > div.about-nuts {
+      width: 707px;
+      height: 157px;
+      margin-top: 15px;
+      margin-right: 300px; }
+      main > div.nuts-box > div.about-nuts > p {
+        font-size: larger;
+        color: grey;
+        line-height: 40px; }
+    main > div.nuts-box > div.button {
+      width: 129px;
+      height: 45px;
+      display: flex;
+      margin-top: 40px;
+      margin-right: 300px;
+      border: 1px solid black;
+      border-radius: 10px; }
+      main > div.nuts-box > div.button > a {
+        margin: 11px auto;
+        font-size: large;
+        color: grey;
+        text-decoration: none; }
+        main > div.nuts-box > div.button > a:hover {
+          color: whitesmoke; }
+      main > div.nuts-box > div.button:hover {
+        background-color: crimson;
+        transition: 200ms; }
+  main > div.background-box {
+    width: 100%;
+    height: 252px;
+    background-image: url(../img/background/bg.png);
+    background-attachment: fixed;
+    background-color: aqua; }
+  main > div.kitchen-box {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-flow: row wrap; }
+    main > div.kitchen-box > div.title {
+      width: max-content;
+      height: max-content;
+      color: red;
+      font-size: x-large;
+      margin-top: 30px;
+      margin-right: 120px; }
+    main > div.kitchen-box > div.additional {
+      width: max-content;
+      height: max-content;
+      margin-top: 30px;
+      margin-right: 10px; }
+      main > div.kitchen-box > div.additional > p {
+        font-size: large;
+        color: grey; }
+  main > div.food-with-g-box {
+    width: 100%;
+    height: 721px;
+    background-color: #e9d69f;
+    display: flex;
+    flex-flow: row wrap; }
+    main > div.food-with-g-box > div.right {
+      width: 322px;
+      height: 561px;
+      display: flex;
+      flex-flow: column wrap;
+      margin-top: 90px;
+      margin-right: 170px;
+      background-color: whitesmoke; }
+      main > div.food-with-g-box > div.right > div.img {
+        width: inherit;
+        height: 291px;
+        object-fit: cover; }
+        main > div.food-with-g-box > div.right > div.img > img {
+          width: inherit;
+          height: inherit;
+          object-fit: cover; }
+      main > div.food-with-g-box > div.right > div.title {
+        width: max-content;
+        height: max-content;
+        margin-top: 38px;
+        margin-right: 33px;
+        color: #ff1700;
+        font-size: 25px; }
+      main > div.food-with-g-box > div.right > div.additional {
+        width: 257px;
+        height: max-content;
+        margin-top: 10px;
+        margin-right: 33px;
+        line-height: 25px; }
+        main > div.food-with-g-box > div.right > div.additional > p {
+          font-size: 17px;
+          color: grey; }
+      main > div.food-with-g-box > div.right > div.button {
+        width: 112px;
+        height: 41px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 33px;
+        font-size: large;
+        display: flex; }
+        main > div.food-with-g-box > div.right > div.button > a {
+          text-decoration: none;
+          color: grey;
+          margin: 11px auto; }
+          main > div.food-with-g-box > div.right > div.button > a:hover {
+            color: whitesmoke; }
+        main > div.food-with-g-box > div.right > div.button:hover {
+          background-color: crimson;
+          transition: 200ms; }
+    main > div.food-with-g-box > div.middle {
+      width: 322px;
+      height: 561px;
+      display: flex;
+      flex-flow: column wrap;
+      margin-top: 90px;
+      margin-right: 12px;
+      background-color: whitesmoke; }
+      main > div.food-with-g-box > div.middle > div.img {
+        width: inherit;
+        height: 291px;
+        object-fit: cover; }
+        main > div.food-with-g-box > div.middle > div.img > img {
+          width: inherit;
+          height: inherit;
+          object-fit: cover; }
+      main > div.food-with-g-box > div.middle > div.title {
+        width: max-content;
+        height: max-content;
+        margin-top: 38px;
+        margin-right: 33px;
+        color: #ff1700;
+        font-size: 25px; }
+      main > div.food-with-g-box > div.middle > div.additional {
+        width: 257px;
+        height: max-content;
+        margin-top: 10px;
+        margin-right: 33px;
+        line-height: 25px; }
+        main > div.food-with-g-box > div.middle > div.additional > p {
+          font-size: 17px;
+          color: grey; }
+      main > div.food-with-g-box > div.middle > div.button {
+        width: 112px;
+        height: 41px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 33px;
+        font-size: large;
+        display: flex; }
+        main > div.food-with-g-box > div.middle > div.button > a {
+          text-decoration: none;
+          color: grey;
+          margin: 11px auto; }
+          main > div.food-with-g-box > div.middle > div.button > a:hover {
+            color: whitesmoke; }
+        main > div.food-with-g-box > div.middle > div.button:hover {
+          background-color: crimson;
+          transition: 200ms; }
+    main > div.food-with-g-box > div.left {
+      width: 322px;
+      height: 561px;
+      display: flex;
+      flex-flow: column wrap;
+      margin-top: 90px;
+      margin-right: 12px;
+      background-color: whitesmoke; }
+      main > div.food-with-g-box > div.left > div.img {
+        width: inherit;
+        height: 291px;
+        object-fit: cover; }
+        main > div.food-with-g-box > div.left > div.img > img {
+          width: inherit;
+          height: inherit;
+          object-fit: cover; }
+      main > div.food-with-g-box > div.left > div.title {
+        width: max-content;
+        height: max-content;
+        margin-top: 38px;
+        margin-right: 33px;
+        color: #ff1700;
+        font-size: 25px; }
+      main > div.food-with-g-box > div.left > div.additional {
+        width: 257px;
+        height: max-content;
+        margin-top: 10px;
+        margin-right: 33px;
+        line-height: 25px; }
+        main > div.food-with-g-box > div.left > div.additional > p {
+          font-size: 17px;
+          color: grey; }
+      main > div.food-with-g-box > div.left > div.button {
+        width: 112px;
+        height: 41px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 33px;
+        font-size: large;
+        display: flex; }
+        main > div.food-with-g-box > div.left > div.button > a {
+          text-decoration: none;
+          color: grey;
+          margin: 11px auto; }
+          main > div.food-with-g-box > div.left > div.button > a:hover {
+            color: whitesmoke; }
+        main > div.food-with-g-box > div.left > div.button:hover {
+          background-color: crimson;
+          transition: 200ms; }
+
+footer {
+  width: 100%;
+  height: max-content;
+  background-color: azure; }
+  footer > div.social-responsibility-box {
+    width: 100%;
+    height: 640px;
+    background-color: #e9d69f;
+    display: flex;
+    flex-flow: column wrap; }
+    footer > div.social-responsibility-box > div.top {
+      width: 100%;
+      height: 291px;
+      display: flex;
+      align-items: end;
+      background-color: #105153;
+      border-bottom: 1px solid #07787c; }
+      footer > div.social-responsibility-box > div.top > p {
+        width: max-content;
+        height: max-content;
+        font-size: larger;
+        color: whitesmoke;
+        margin-right: 560px;
+        margin-bottom: 10px; }
+    footer > div.social-responsibility-box > div.bottom {
+      width: 100%;
+      height: 329px;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #105153; }
+      footer > div.social-responsibility-box > div.bottom > div.title {
+        width: max-content;
+        height: max-content;
+        display: flex;
+        margin-right: 500px;
+        flex-flow: row wrap; }
+        footer > div.social-responsibility-box > div.bottom > div.title > span {
+          font-size: xx-large;
+          margin-top: 17px;
+          color: #009da2; }
+        footer > div.social-responsibility-box > div.bottom > div.title > p {
+          font-size: x-large;
+          margin-top: 26px;
+          margin-left: 5px;
+          color: #0091df; }
+      footer > div.social-responsibility-box > div.bottom > div.additional {
+        width: max-content;
+        height: max-content;
+        margin-right: 620px;
+        display: flex;
+        font-size: large; }
+      footer > div.social-responsibility-box > div.bottom > div.img {
+        width: 397px;
+        height: 344px;
+        display: flex;
+        position: absolute;
+        margin-top: 100px;
+        margin-right: 465px;
+        object-fit: cover; }
+        footer > div.social-responsibility-box > div.bottom > div.img > img {
+          width: inherit;
+          height: inherit;
+          object-fit: cover; }
+  footer > div.golestan-vaz-box {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: whitesmoke; }
+    footer > div.golestan-vaz-box > div.title {
+      width: max-content;
+      height: max-content;
+      margin-top: 140px;
+      margin-right: 300px;
+      font-size: 24px;
+      color: red; }
+    footer > div.golestan-vaz-box > div.additional {
+      width: 707px;
+      height: max-content;
+      margin-top: 10px;
+      margin-right: 300px; }
+      footer > div.golestan-vaz-box > div.additional > p {
+        font-size: large;
+        color: grey;
+        line-height: 30px; }
+    footer > div.golestan-vaz-box > div.button {
+      width: 112px;
+      height: 41px;
+      border: 1px solid black;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-right: 300px;
+      font-size: large;
+      display: flex; }
+      footer > div.golestan-vaz-box > div.button > a {
+        text-decoration: none;
+        color: grey;
+        margin: 11px auto; }
+        footer > div.golestan-vaz-box > div.button > a:hover {
+          color: whitesmoke; }
+      footer > div.golestan-vaz-box > div.button:hover {
+        background-color: crimson;
+        transition: 200ms; }
+  footer > div.social-address-box {
+    width: 100%;
+    height: 100px;
+    background-color: #eeefef;
+    display: flex;
+    flex-flow: row wrap; }
+    footer > div.social-address-box > div.circle-right {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-right: 480px; }
+      footer > div.social-address-box > div.circle-right > a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover; }
+        footer > div.social-address-box > div.circle-right > a > img {
+          width: 50px;
+          height: 50px;
+          color: aliceblue;
+          object-fit: cover; }
+    footer > div.social-address-box > div.circle-second-right {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-right: 20px; }
+      footer > div.social-address-box > div.circle-second-right > a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover; }
+        footer > div.social-address-box > div.circle-second-right > a > img {
+          width: 50px;
+          height: 50px;
+          color: aliceblue;
+          object-fit: cover; }
+    footer > div.social-address-box > div.circle-third-right {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-right: 20px; }
+      footer > div.social-address-box > div.circle-third-right > a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover; }
+        footer > div.social-address-box > div.circle-third-right > a > img {
+          width: 50px;
+          height: 50px;
+          color: aliceblue;
+          object-fit: cover; }
+    footer > div.social-address-box > div.circle-left {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-right: 20px; }
+      footer > div.social-address-box > div.circle-left > a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover; }
+        footer > div.social-address-box > div.circle-left > a > img {
+          width: 50px;
+          height: 50px;
+          color: aliceblue;
+          object-fit: cover; }
+    footer > div.social-address-box > div.circle-second-left {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-right: 20px; }
+      footer > div.social-address-box > div.circle-second-left > a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover; }
+        footer > div.social-address-box > div.circle-second-left > a > img {
+          width: 50px;
+          height: 50px;
+          color: aliceblue;
+          object-fit: cover; }
+    footer > div.social-address-box > div.circle-third-left {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-right: 20px; }
+      footer > div.social-address-box > div.circle-third-left > a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover; }
+        footer > div.social-address-box > div.circle-third-left > a > img {
+          width: 50px;
+          height: 50px;
+          color: aliceblue;
+          object-fit: cover; }
+  footer > div.end-box {
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red; }
+    footer > div.end-box > div.golestan-pro-box {
+      width: 100%;
+      height: 500px;
+      background-color: #242424;
+      margin-top: 25px;
+      display: flex;
+      flex-flow: column wrap; }
+      footer > div.end-box > div.golestan-pro-box > div.products {
+        width: 100%;
+        height: 291px;
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 47px; }
+        footer > div.end-box > div.golestan-pro-box > div.products > div.tea-box {
+          width: 142px;
+          height: 291px;
+          margin-right: 319px;
+          display: flex;
+          flex-flow: column wrap; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.tea-box > img {
+            width: 52px;
+            height: 79px;
+            object-fit: cover;
+            margin-right: 38px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.tea-box > div.title {
+            width: 142px;
+            height: 37px;
+            color: whitesmoke;
+            margin-top: 5px;
+            border-top: 1px solid #717273;
+            border-bottom: 1px solid #717273; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.tea-box > div.title > p {
+              font-size: large;
+              margin-top: 10px;
+              margin-right: 32px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.tea-box div.additional {
+            width: 142px;
+            height: 168px;
+            display: flex;
+            flex-flow: column wrap; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.tea-box div.additional > a {
+              width: max-content;
+              height: max-content;
+              text-decoration: none;
+              color: grey;
+              font-size: large;
+              margin-top: 10px; }
+        footer > div.end-box > div.golestan-pro-box > div.products > div.tea-bag-box {
+          width: 142px;
+          height: 291px;
+          margin-right: 35px;
+          display: flex;
+          flex-flow: column wrap; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.tea-bag-box > img {
+            width: 52px;
+            height: 79px;
+            object-fit: cover;
+            margin-right: 38px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.tea-bag-box > div.title {
+            width: 142px;
+            height: 37px;
+            color: whitesmoke;
+            margin-top: 5px;
+            border-top: 1px solid #717273;
+            border-bottom: 1px solid #717273; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.tea-bag-box > div.title > p {
+              font-size: large;
+              margin-top: 10px;
+              margin-right: 32px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.tea-bag-box div.additional {
+            width: 142px;
+            height: 168px;
+            display: flex;
+            flex-flow: column wrap; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.tea-bag-box div.additional > a {
+              width: max-content;
+              height: max-content;
+              text-decoration: none;
+              color: grey;
+              font-size: large;
+              margin-top: 10px; }
+        footer > div.end-box > div.golestan-pro-box > div.products > div.spice-box {
+          width: 142px;
+          height: 291px;
+          margin-right: 35px;
+          display: flex;
+          flex-flow: column wrap; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.spice-box > img {
+            width: 52px;
+            height: 79px;
+            object-fit: cover;
+            margin-right: 38px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.spice-box > div.title {
+            width: 142px;
+            height: 37px;
+            color: whitesmoke;
+            margin-top: 5px;
+            border-top: 1px solid #717273;
+            border-bottom: 1px solid #717273; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.spice-box > div.title > p {
+              font-size: large;
+              margin-top: 10px;
+              margin-right: 32px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.spice-box div.additional {
+            width: 142px;
+            height: 168px;
+            display: flex;
+            flex-flow: column wrap; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.spice-box div.additional > a {
+              width: max-content;
+              height: max-content;
+              text-decoration: none;
+              color: grey;
+              font-size: large;
+              margin-top: 10px; }
+        footer > div.end-box > div.golestan-pro-box > div.products > div.beans-box {
+          width: 142px;
+          height: 291px;
+          margin-right: 35px;
+          display: flex;
+          flex-flow: column wrap; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.beans-box > img {
+            width: 52px;
+            height: 79px;
+            object-fit: cover;
+            margin-right: 38px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.beans-box > div.title {
+            width: 142px;
+            height: 37px;
+            color: whitesmoke;
+            margin-top: 5px;
+            border-top: 1px solid #717273;
+            border-bottom: 1px solid #717273; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.beans-box > div.title > p {
+              font-size: large;
+              margin-top: 10px;
+              margin-right: 32px; }
+          footer > div.end-box > div.golestan-pro-box > div.products > div.beans-box div.additional {
+            width: 142px;
+            height: 168px;
+            display: flex;
+            flex-flow: column wrap; }
+            footer > div.end-box > div.golestan-pro-box > div.products > div.beans-box div.additional > a {
+              width: max-content;
+              height: max-content;
+              text-decoration: none;
+              color: grey;
+              font-size: large;
+              margin-top: 10px; }
